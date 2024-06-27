@@ -5,8 +5,9 @@ Django + Nextjs Template: Standardised CFC Tech Stack
 ## Get started
 
 0. Activate the dev container in VSCode
-1. Start the db, server and client with `docker compose up`
-2. Server is at `localhost:8000`, client at `localhost:3000`
+1. Copy `.env.example` files to `.env` in server and client.
+2. Follow READMEs in server and client to start Django/Next.js
+3. Server is at `localhost:8000`, client at `localhost:3000`
 
 ## Server
 
@@ -18,7 +19,6 @@ If the models are updated, be sure to create a migration:
 docker container exec server python manage.py makemigrations # create a new migration OR
 dxc server python manage.py makemigrations
 ```
-
 
 ## Other
 
